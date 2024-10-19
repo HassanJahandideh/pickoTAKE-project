@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles/style.css">
+   <!-- bootStrap -->
+
+   <!-- font awsome kit -->
+   <script src="https://kit.fontawesome.com/040f2bdf68.js" crossorigin="anonymous"></script>
+   <link rel="icon" href="design/utensils-solid.svg">
+   <title>PickoTAKE</title>
+   <!-- PickoTAKE-name font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap" rel="stylesheet">
+   <!-- navbar link font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet">
+   <!-- introduce-txt font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+   <nav>
+      <div class="name-logo">
+         <img class="PickoTAKE-logo" src="design/pizza-slice-solid.svg" alt="PickoTAKE logo">
+         <h3 class="PickoTAKE-name">PickoTAKE</h3>
+      </div>
+      <div id="tabs" class="sidenav">
+         <a class="single-tab" href="">HOME</a>
+         <a class="single-tab" href="">RECIPES</a>
+         <a class="single-tab" href="">POPULAR</a>
+         <a class="signup" href="">Sign Up</a>
+         <a class="signin" href="">Sign In</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="openNav()">
+         <i class="toggle fa-solid fa-bars"></i>
+      </a>
+   </nav>
+   <div class="container">
+      <div class="introduce">
+         <h2 class="introduce-txt">
+            Experience <span class="real-taste"><br>Real Taste</span> & Fast Delivery <br>With Us
+         </h2>
+         <p class="lorem">Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit. Corrupti harum tenetur, <br> in
+            placeat quas consequuntur optio. </p>
+         <div class="tutorial-btn">
+            <button class="started-btn">Get Started</button>
+            <div class="play-txt">
+               <img class="ply-btn" src="design/circle-play-solid.svg" alt="play button">
+               <p class="how-to-order">How To Order!</p>
+            </div>
+         </div>
+         <img class="chef-img" src="design/chef-26.png" alt="image of chef">
+      </div>
+      <!-- 5 resipes -->
+      <div class="trending-recipes">
+         <div class="trending-recipes-txt">
+            Trending Recipes
+         </div>
+         <!-- scroll buttons -->
+         <div class="scroll-controls">
+            <button id="scroll-up" class="scroll-btn">⬆</button>
+            <button id="scroll-down" class="scroll-btn">⬇</button>
+            <button id="scroll-left" class="scroll-btn">⬅</button>
+            <button id="scroll-right" class="scroll-btn">➡</button>
+         </div>
+         <!-- menu -->
+         <div class="menu">
+            <div class="menu-item">
+               <h3 class="trending-recipes-price">$11.50</h3>
+
+               <img src="design/Lovepik_com-380323851-lunch-cut-pizza-food-shiitake-mushrooms-fast-food.png"
+                  class="pizza-img" alt="mushroom">
+
+               <h4 class="recipes-name">
+                  <b>Mushrooms Pizza</b>
+               </h4>
+
+               <p class="recipes-information">
+                  Recommendation
+               </p>
+
+               <p class="recipes-rating">4.5</p>
+
+               <div class="stars"></div>
+
+               <button class="trending-recipes-buyButton">Order Now</button>
+            </div>
+
+            <div class="menu-item">
+               <h3 class="trending-recipes-price">$11.00</h3>
+
+               <img src="design/vecteezy_pepperoni-pizza-isolated-illustration_23742417.png" class="pizza-img" alt="pepperoni">
+
+               <h3 class="recipes-name">Pepperoni Pizza</h3>
+
+               <p class="recipes-information">
+                  Recommendation
+               </p>
+
+               <p class="recipes-rating">4.5</p>
+
+               <div class="stars"></div>
+
+               <button class="trending-recipes-buyButton">Order Now</button>
+            </div>
+
+            <div class="menu-item">
+               <h3 class="trending-recipes-price">$11.50</h3>
+
+               <img src="design/vecteezy_top-view-pizza-with_24589160.png" class="pizza-img" alt="veggi">
+
+               <h3 class="recipes-name">Veggie Pizza</h3>
+
+               <p class="recipes-information">
+                  Recommendation
+               </p>
+
+               <p class="recipes-rating">4.5</p>
+
+               <div class="stars"></div>
+
+               <button class="trending-recipes-buyButton">Order Now</button>
+            </div>
+
+            <div class="menu-item">
+               <h3 class="trending-recipes-price">$13.00</h3>
+
+               <img src="design/—Pngtree—chicken pizza top view_15567987.png" class="pizza-img" alt="chicken">
+
+               <h3 class="recipes-name">Chicken Pizza</h3>
+
+               <p class="recipes-information">
+                  Recommendation
+               </p>
+
+               <p class="recipes-rating">
+                  4.5
+               </p>
+
+               <div class="stars"></div>
+
+               <button class="trending-recipes-buyButton">Order Now</button>
+            </div>
+
+            <div class="menu-item">
+               <h3 class="trending-recipes-price">$11.00</h3>
+
+               <img src="design/—Pngtree—pizza png with ai generated_13357738.png" class="pizza-img" alt="cheesy">
+
+               <h3 class="recipes-name">Cheesy Pizza</h3>
+
+               <p class="recipes-information">
+                  Recommendation
+               </p>
+
+               <p class="recipes-rating">4.5</p>
+
+               <div class="stars"></div>
+
+               <button class="trending-recipes-buyButton">Order Now</button>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+
+   <script src="./scripts/index.js"></script>
+</body>
+
+</html>
