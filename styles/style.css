@@ -322,6 +322,43 @@ nav {
    display: none;
 }
 
+.top-collection {
+   margin-top: 35px;
+   text-align: center;
+}
+.top-collection-text {
+   font-size: 30px;
+   font-family: "LXGW WenKai TC", cursive;
+   font-weight: 600;
+   font-style: normal;
+}
+.under-topCollection-txt {
+   font-family: "Cairo", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 14px;
+   color: rgb(131, 119, 119);
+}
+
+.collections {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+}
+.link-images {
+   margin-top: 30px;   
+   width: 250px;
+   height: 290px;
+   border-radius: 0 35px 35px 0;
+}
+.link-images:hover {
+   width: 290px;
+   height: 330px;
+   transition: 0.3s;
+}
+
 @media only screen and (max-width:1265px) {
    .trending-recipes {
       position: relative;
@@ -476,7 +513,7 @@ nav {
    }
 
    .menu-item {
-      width: 100%;
+      width: 80%;
       height: auto;
       margin-bottom: 20px;
    }
@@ -486,7 +523,9 @@ nav {
 
    .pizza-img {
       position: absolute;
-      margin-left: 145px;
+      margin-left: 105px;
+      margin-top: -40px;
+      width: 110px;
    }
    .trending-recipes-price {
       margin-left: 285px;
@@ -505,11 +544,11 @@ nav {
       
    }
    #scroll-up {
-      margin-top: -310px;
-      margin-left: 55px;
+      margin-top: -290px;
+      margin-left: 50px;
    }
    #scroll-down {
-      margin-top: -310px;
+      margin-top: -290px;
       margin-left: -1px;
    }
 
@@ -527,5 +566,26 @@ nav {
       position: absolute;
       z-index: 10;
       margin-top: 38px;
+   }
+
+   .collections {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+   }
+
+   .link-images {
+      width: 180px;
+      height: 200px;
+      margin-top: 20px;
+      border-radius: 15px;
+   }
+
+   .link-images:hover {
+      width: 200px;
+      height: 220px;
+      transition: 0.3s;
    }
 }
