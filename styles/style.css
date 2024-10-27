@@ -401,6 +401,122 @@ nav {
    font-size: 20px;
 }
 
+.newestRecipes-container {
+   margin-top: 90px;
+}
+.newestRecipes-title {
+   display: flex;
+   justify-content: space-between;
+}
+.newestRecipes-txt {
+   font-size: 25px;
+   font-family: "LXGW WenKai TC", cursive;
+   font-weight: 600;
+   margin-left: 10%;
+   transition: margin-left 0.5s ease;
+}
+.newestRecipes-btn {
+   float: right;
+   margin-right: 10%;
+   transition: margin-right 0.5s ease;
+}
+.newestRecipes-seeMore {
+   font-family: "Cairo", sans-serif;
+   font-weight: 400;
+   padding: 5px 10px;
+   border-radius: 50px;
+   border: none;
+   background-color: orange;
+   color: white;
+   cursor: pointer;
+}
+
+.nwstrcps-border-container {
+   display: flex;
+   gap: 100px;
+   justify-content: center;
+}
+.border-container {
+   margin-top: 80px;
+   border: none;
+   background-color: white;
+   width: 200px;
+   height: 170px;
+   border-radius: 10px;
+}
+.img-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.plate-img {   
+   width: 160px;
+   margin-top: -70px;
+   filter: drop-shadow(0px 20px 8px rgba(0, 0, 0, 0.336));
+}
+.eggburger-img {
+   width: 160px;
+   margin-top: -67px;
+   filter: drop-shadow(0px 20px 8px rgba(0, 0, 0, 0.336));
+}
+.kebabmeal-img {
+   width: 160px;
+   margin-top: -75px;
+   filter: drop-shadow(0px 20px 8px rgba(0, 0, 0, 0.336));
+}
+.friedchicken-img{
+   width: 160px;
+   margin-top: -83px;
+   filter: drop-shadow(0px 20px 8px rgba(0, 0, 0, 0.336));
+}
+.nwstrcps-name {
+   margin-top: 30px;
+   text-align: center;
+   font-family: "DM Sans", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 900;
+   font-style: normal;
+}
+.under-nwstrcps-name {
+   border: 1px solid rgb(218, 217, 217);
+   width: 85%;
+}
+.titles {
+   display: flex;
+   justify-content: space-between;
+   max-width: 300px;
+   margin: 0 auto;
+}
+.info {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0 10px;
+}
+.time-title, .portion-title {
+   font-family: "Cairo", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   color: rgb(145, 142, 142);
+   font-size: 14px;
+}
+.time, .portion {
+   margin-top: 1px;
+   font-family: "Inter", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-style: normal;
+   color: black;
+   font-size: 14px;
+}
+
+@media only screen and (max-width:1366px) {
+   .nwstrcps-border-container {
+      gap: 70px;
+   }
+}
+
 @media only screen and (max-width:1265px) {
    .trending-recipes {
       position: relative;
@@ -493,6 +609,18 @@ nav {
    }
 }
 
+@media only screen and (max-width:1095px) {
+.newestRecipes-txt {
+      margin-left: 0;
+      /* حرکت به سمت چپ */
+   }
+
+   .newestRecipes-btn {
+      margin-right: 0;
+      /* حرکت به سمت راست */
+   }
+}
+
 @media only screen and (max-width:1066px) {
    .chefs-section {
       display: flex;
@@ -515,6 +643,12 @@ nav {
    .chefs-name {
       text-align: center;
       font-size: 18px;
+   }
+}
+
+@media only screen and (max-width:1010px) {
+   .nwstrcps-border-container {
+      gap: 10px;
    }
 }
 
@@ -570,6 +704,10 @@ nav {
    .chefs-name {
       text-align: center;
       font-size: 18px;
+   }
+
+   .border-container {
+      width: 170px;
    }
 }
 
@@ -635,6 +773,19 @@ nav {
    .chefs-name {
       text-align: center;
       font-size: 16px;
+   }
+
+   .border-container {
+      width: 150px;
+   }
+}
+
+@media only screen and (max-width:701px) {
+   .border-container {
+      width: 130px;
+   }
+   .plate-img, .eggburger-img, .kebabmeal-img, .friedchicken-img {
+      width: 150px;
    }
 }
 
@@ -791,5 +942,17 @@ nav {
       width: 100%;
       height: auto;
       border-radius: 50px;
+   }
+
+   .nwstrcps-border-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+   }
+
+   .border-container {
+      width: 45%;
+      margin: 10px 30;
    }
 }
