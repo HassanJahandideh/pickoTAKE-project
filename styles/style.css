@@ -11,7 +11,7 @@ html {
    border: none;
    background-color: rgb(235, 232, 232);
    padding: 25px;
-   border-radius: 20px;
+   border-radius: 20px 20px 0 0;
    transition: margin-right 0.5s;
 }
 
@@ -511,6 +511,60 @@ nav {
    font-size: 14px;
 }
 
+.craving-container {
+   display: flex;
+   justify-content: center;
+   gap: 60px;
+}
+.craving-txt {
+   margin-top: 90px;
+   font-size: 25px;
+   font-family: "LXGW WenKai TC", cursive;
+   font-weight: 600;
+   text-align: center;
+}
+.craving-border {
+   margin-top: 30px;
+   width: 200px;
+   /* margin-left: 10%; */
+   border-radius: 15px;
+   overflow: hidden;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   font-family: Arial, sans-serif;
+   text-align: center;
+}
+.img-design {
+   width: 200px;
+   /* height: 250px; */
+}
+.card-content {
+   background-color: #f9f4e8;
+   padding: 15px;
+}
+.tag {
+   background-color: #e74c3c;
+   color: #fff;
+   font-size: 12px;
+   padding: 3px 10px;
+   border-radius: 12px;
+   display: inline-block;
+   margin-bottom: 8px;
+}
+.title {
+   font-size: 18px;
+   font-weight: bold;
+   color: #333;
+}
+.craving-border:hover {
+   width: 240px;
+   transition: 0.3s;
+}
+.img-design:hover {
+   width: 240px;
+   transition: 0.3s;
+}
+
+
 @media only screen and (max-width:1366px) {
    .nwstrcps-border-container {
       gap: 70px;
@@ -649,6 +703,27 @@ nav {
 @media only screen and (max-width:1010px) {
    .nwstrcps-border-container {
       gap: 10px;
+   }
+
+}
+
+@media only screen and (max-width:829px) {
+   .craving-container {
+      gap: 40px;
+   }
+   .craving-border {
+      width: 160px;
+   }
+   .img-design {
+      width: 160px;
+      
+   }
+   .craving-border:hover {
+      width: 180px;
+   }
+   .img-design:hover {
+      width: 180px;
+      transition: 0.3s;
    }
 }
 
